@@ -7,7 +7,7 @@ export class ServicesService {
     {
       id: 't01',
       carId: '01',
-      title: 'Service',
+      title: 'Urgent service',
       summary: 'Change engine oil and filters.',
       dueDate: '2025-02-21',
     },

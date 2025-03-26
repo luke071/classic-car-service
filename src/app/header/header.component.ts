@@ -9,6 +9,6 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
   get imageLogo() {
-    return 'assets/logo2.png';
+    return 'assets/logo.png';
   }
 }
