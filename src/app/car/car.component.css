@@ -1,0 +1,20 @@
+button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  background-color: rgb(159, 161, 165);
+  color: #111011;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  width: 100%;
+  min-width: 8rem;
+  text-align: left;
+  margin-bottom: 5%;
+}
+img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}

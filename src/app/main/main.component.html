@@ -1,0 +1,26 @@
+<main>
+  <div>
+    <ul>
+      @for (car of cars; track car.id) {
+      <li>
+        <app-car
+          [car]="car"
+          [selected]="car.id === selectedCarId"
+          (select)="onSelectCar($event)"
+        />
+      </li>
+      }
+    </ul>
+  </div>
+  <div>
+    @if (selectedCar){
+    <app-services
+      [carId]="selectedCar.id"
+      [model]="selectedCar.model"
+      [image]="selectedCar.image"
+    />
+    } @else {
+    <p>Select a car to see services of this car!</p>
+    }
+  </div>
+</main>

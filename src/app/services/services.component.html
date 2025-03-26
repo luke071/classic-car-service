@@ -1,0 +1,21 @@
+@if (isAddingService){
+<app-new-service [carId]="carId" (close)="onCloseAddService()" />
+}
+
+<section>
+  <header>
+    <img [src]="imagePath" alt="abc" />
+    <h2>{{ model }}'s services</h2>
+    <menu>
+      <button (click)="onStartAddService()">Add service</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (service of selectedCarServices;track service.id){
+    <li>
+      <app-service [service]="service" />
+    </li>
+    }
+  </ul>
+</section>
