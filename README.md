@@ -1,6 +1,12 @@
-# ClassServiceApp
+# Classic car service
+
+When building the application, the author used knowledge from course Angular - The Complete Guide (2025 Edition) created by Maximilian Schwarzmüller.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.12.
+
+## Demo
+
+![plot](./src\assets\logo.png)
 
 ## Development server
 
