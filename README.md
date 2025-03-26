@@ -6,7 +6,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-![plot](./src/assets/logo.png)
+Application home page.
+
+![plot](./src/assets/demo.png)
 
 ## Development server
 
